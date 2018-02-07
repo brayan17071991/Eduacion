@@ -12,13 +12,28 @@
 	<div id="cuerpo">
 		<div>
 			<form method="post" action="login.php">
-				<p>
-					<label for="username">Tu nombre de usuario:</label>
-					<input type="text" name="username" id="username" />
-					<br>
-					<label for="pass">Tu contraseña</label>
-					<input type="password" name="pass" id="pass" />
-				</p>
+				<table border="1">
+					<tr>
+						<th colspan="2">Login</th>
+					</tr>
+					<tr>
+						<td colspan="2">
+							<label>Usuario: </label>
+							<input type="text" name="txtUser" placeholder="Nombre Usuario">
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2">
+							<label>Pass: </label>&nbsp;&nbsp;&nbsp;&nbsp;
+							<input type="password" name="txtPass" placeholder="Contraseña">
+						</td>
+					</tr>
+					<tr align="center">
+						<td colspan="2">
+							<input type="submit" name="btnAceptar" value="Ingresar" style="width: 230px">
+						</td>
+					</tr>
+				</table>
 				<p>Registrate</p>
 				<p>Olvide mi Contraseña</p>
 			</form>
