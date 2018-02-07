@@ -1,3 +1,9 @@
+commit e7e37ac846f4764725199f653f99da82e3db22ee
+Author: Brayan RG <brg17071991@gamil.com>
+Date:   Wed Feb 7 14:15:14 2018 -0500
+
+    Se quito un salto de linea despues de registrar
+
 commit cff4cc917829679f9df3d25889c950ddc8954026
 Author: Brayan RG <brg17071991@gamil.com>
 Date:   Wed Feb 7 13:43:18 2018 -0500
