@@ -1,3 +1,3 @@
 <?php 
-echo 'hola mundo 222';
+echo 'hola mundo';
 ?>
